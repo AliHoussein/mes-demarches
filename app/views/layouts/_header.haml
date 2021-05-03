@@ -63,7 +63,7 @@
 
       - elsif request.path != new_user_session_path
         - if request.path == new_user_registration_path
-          %li.header-text
+          %li
             Vous avez déjà un compte ?
         %li
           = link_to "Connexion", new_user_session_path, class: "button secondary"

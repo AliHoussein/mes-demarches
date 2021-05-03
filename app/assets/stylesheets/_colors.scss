@@ -10,7 +10,8 @@ $border-grey: #CCCCCC;
 $darker-red: #530B0D;
 $dark-red: #A10005;
 $medium-red: rgba(161, 0, 5, 0.9);
-$red: #E11619;
+$red: #C1070D;
+$red-ds: #E11619;
 $light-red: #ED1C24;
 $lighter-red: #F52A2A;
 $background-red: #FFDFDF;
@@ -23,9 +24,10 @@ $orange: #F28900;
 $orange-bg: lighten($orange, 35%);
 $light-yellow: #FFFFDE;
 $yellow: #FFDB10;
-$brown: #924E17;
+$brown: #924E18;
+$brown-ds: #924E17;
 
-$nav-bar-fg: #FFFFFF;
-$nav-bar-bg: $red;
-$nav-bar-link: $yellow;
+$nav-bar-fg: $black;
+$nav-bar-bg: $white;
+$nav-bar-link: $blue;
 
