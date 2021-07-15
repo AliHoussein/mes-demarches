@@ -83,6 +83,7 @@ describe ProcedureExportService do
           "titre_identite",
           "iban",
           "annuaire_education",
+          "paraphe",
           "text"
         ]
       end
@@ -177,6 +178,7 @@ describe ProcedureExportService do
           "titre_identite",
           "iban",
           "annuaire_education",
+          "paraphe",
           "text"
         ]
       end
@@ -265,6 +267,7 @@ describe ProcedureExportService do
             "titre_identite",
             "iban",
             "annuaire_education",
+            "paraphe",
             "text"
           ]
         end

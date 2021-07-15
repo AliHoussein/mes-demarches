@@ -1516,6 +1516,21 @@ type PageInfo {
   startCursor: String
 }
 
+type ParapheChamp implements Champ {
+  id: ID!
+
+  """
+  Libellé du champ.
+  """
+  label: String!
+  signedBy: String!
+
+  """
+  La valeur du champ sous forme texte.
+  """
+  stringValue: String
+}
+
 type ParcelleCadastrale implements GeoArea {
   codeArr: String!
   codeCom: String!
@@ -1860,6 +1875,11 @@ enum TypeDeChamp {
   Numéro DN
   """
   numero_dn
+
+  """
+  Paraphe
+  """
+  paraphe
 
   """
   Pays

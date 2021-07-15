@@ -166,6 +166,9 @@ FactoryBot.define do
     factory :type_de_champ_te_fenua do
       type_champ { TypeDeChamp.type_champs.fetch(:te_fenua) }
     end
+    factory :type_de_champ_paraphe do
+      type_champ { TypeDeChamp.type_champs.fetch(:paraphe) }
+    end
     factory :type_de_champ_repetition do
       type_champ { TypeDeChamp.type_champs.fetch(:repetition) }
       mandatory { true }
